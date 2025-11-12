@@ -10,7 +10,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Include the update checker library
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker-master/plugin-update-checker.php';
 
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/Vk2401/test-repo.git/',
