@@ -2,7 +2,7 @@
 /*
 Plugin Name: Test Repo
 Description: GitHub-based plugin update example
-Version: 1.0.0
+Version: 1.0.1
 Author: You
 */
 
