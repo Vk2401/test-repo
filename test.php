@@ -10,13 +10,14 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Include the update checker library
-require 'plugin-update-checker-master/plugin-update-checker.php';
+require 'updater/plugin-update-checker.php';
 
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/Vk2401/test-repo.git/',
+    'https://github.com/Vk2401/test-repo/',
     __FILE__,
-    'my-github-plugin'
+    'test-repo'
 );
 
-// Optional: specify branch if not using "main"
+// Optional: specify the branch to check for updates
 $updateChecker->setBranch('main');
+
