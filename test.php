@@ -7,7 +7,7 @@ Author: You
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
-
+ 
 // Load the correct version loader
 require_once plugin_dir_path(__FILE__) . 'updater/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
